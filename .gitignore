@@ -39,3 +39,11 @@ sysinfo.txt
 
 
 # End of https://www.gitignore.io/api/unity
+
+Assets/ProCore
+Assets/Cinemachine
+Assets/ProCore.meta
+Assets/Cinemachine.meta
+Assets/Gizmos/Cinemachine
+Assets/Gizmos/Cinemachine.meta
+Assets/Gizmos.meta
