@@ -8,3 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/AM1/Scenes/SandBox.unity
     guid: a98c22735e32e974db60fe443cdd5367
+  - enabled: 1
+    path: Assets/AM1/Scenes/Clear.unity
+    guid: bc350469d61be4248822a46306d56334

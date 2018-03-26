@@ -13,9 +13,6 @@ namespace AM1
         [TooltipAttribute("ゲームパラメーターのScriptableObjectを渡します"), SerializeField]
         private GameParams gameParams;
 
-        // 現在のレベル
-        public static int levelIndex = 0;
-
         public static bool IsControllable
         {
             get;
@@ -61,7 +58,6 @@ namespace AM1
             DontDestroyOnLoad(gameObject);
 
             // ゲーム開始
-            levelIndex = 0;
             StartCoroutine(sceneStart());
         }
 
@@ -72,56 +68,24 @@ namespace AM1
             IsControllable = true;
         }
 
-        public static void NextLevel()
+        public static void SceneChange(string name)
         {
-            int index = -1;
-            for (int i=0; i<2 && index==-1;i++)
-            {
-                for (int j = levelIndex; j < SceneManager.sceneCount; j++)
-                {
-                    Scene sc = SceneManager.GetSceneAt(j);
-                    if (_instance.gameParams.IgnoreStageNames.IndexOf(sc.name) != -1)
-                    {
-                        index = j;
-                        break;
-                    }
-                }
-
-                if (index == -1)
-                {
-                    levelIndex = 0;
-                }
-            }
-
-            if (index == -1)
-            {
-                print("ゲーム用のシーンが見当たりません。");
-                return;
-            }
-
-            // レベルを更新しておく
-            levelIndex = index + 1;
-            levelIndex = levelIndex >= SceneManager.sceneCount ? 0 : levelIndex;
-
-            // シーンを切り替える
-            _instance.StartCoroutine(changeScene(SceneManager.GetSceneAt(index)));
+            _instance.StartCoroutine(changeScene(name));
         }
 
-        private static IEnumerator changeScene(Scene sc)
+        private static IEnumerator changeScene(string sc)
         {
             // 操作不能にする
             IsControllable = false;
 
             // フェードアウト
-            FadeSystem.FadeOut(_instance.fadeTime);
+            yield return FadeSystem.FadeOut(_instance.fadeTime);
 
             // シーン切り替え
-            yield return SceneManager.LoadSceneAsync(sc.name);
+            yield return SceneManager.LoadSceneAsync(sc);
 
             // シーン開始
             yield return _instance.sceneStart();
         }
-
-
     }
 }
