@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace TPCMove
+namespace AM1.TPCMove
 {
     public class Warp : MonoBehaviour
     {
