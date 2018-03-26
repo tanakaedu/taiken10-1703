@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Furidashi
   - MovableBlock
+  - Fire
+  - BreakableBlock
   layers:
   - Default
   - TransparentFX

@@ -80,7 +80,7 @@ namespace AM1
                 for (int j = levelIndex; j < SceneManager.sceneCount; j++)
                 {
                     Scene sc = SceneManager.GetSceneAt(j);
-                    if (_instance.gameParams.ignoreStageNames.IndexOf(sc.name) != -1)
+                    if (_instance.gameParams.IgnoreStageNames.IndexOf(sc.name) != -1)
                     {
                         index = j;
                         break;

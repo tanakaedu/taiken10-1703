@@ -11,8 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: becc51846ba191c47a53179a4c955076, type: 3}
   m_Name: GameParams
   m_EditorClassIdentifier: 
-  ignoreStageNames:
-  - Title
-  - GameOver
-  - Clear
-  - Ending
+  IgnoreStageNames: []
+  BreakSpeedUp: -1
+  BreakSpeedDown: 1

@@ -6,6 +6,10 @@ using UnityEngine;
 public class GameParams : ScriptableObject {
 
     [TooltipAttribute("ステージ名ではないシーン名のリスト")]
-    public List<string> ignoreStageNames = new List<string>();
+    public List<string> IgnoreStageNames = new List<string>();
+    [TooltipAttribute("BreakableBlockが壊れる上からの落下速度")]
+    public float BreakSpeedUp = -0.5f;
+    [TooltipAttribute("BreakableBlockが壊れる下からの速度")]
+    public float BreakSpeedDown = 0.1f;
 
 }

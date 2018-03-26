@@ -61,6 +61,10 @@ namespace AM1
 
         public static IEnumerator FadeIn(float time)
         {
+            while ((_instance == null) || (_instance.fadeCover == null))
+            {
+                yield return null;
+            }
             _instance.fadeCover.enabled = true;
             yield return _instance.fade(0f, time);
             _instance.fadeCover.enabled = false;
