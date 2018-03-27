@@ -16,26 +16,26 @@
 ---
 
 ### 概要
-- 光るものや煙などのはっきりとした形がないものの表現によく用いる
+- <b>光るもの</b>や<b>煙</b>などの形がないものの表現手法
 - ゲームの演出の定番
 
 ---
 
 ### デフォルトのパーティクル
 
-- <i>Assets</i>メニューからImport Package -> ParticleSystemsを選択してImport
-- ProjectビューのStandard Assets -> ParticleSystems -> Prefabsフォルダーを開く
+- <i>Assets</i>メニューから<i>Import Package</i> -> <i>ParticleSystems</i>を選択して<i>Import</i>
+- <i>Project</i>ビューの<i>Standard Assets</i> -> <i>ParticleSystems</i> -> <i>Prefabs</i>フォルダーを開く
 - 中のプレハブをシーンに配置して確認してみよう
-- 箱の子供にして、Positionを0,0,0にする
+- 箱の子供にして、<i>Position</i>を`0`,`0`,`0`にする
 
 ---
 
 ### アセットストア
 
-- UnityのWindow -> Asset Storeでアセットストアを開く
-- 検索欄に`particle`、価格を0円にして、パーティクルを検索
+- Unityの<i>Window</i> -> <i>Asset Store</i>でアセットストアを開く
+- 検索欄に`particle`、価格を`0`円にして、パーティクルを検索
 - 気になったプレハブをインポートして、サンプルシーンを開いてみよう
-- 100MBを超えるパーティクルは時間がかかるので今回は避けよう
+- <b>100MB</b>を超えるパーティクルは時間がかかるので今回は避けよう
 
 ---
 
@@ -53,7 +53,7 @@
 1. スタート地点っぽい表現
 1. ワープできそうな表現
 1. プレイヤーが登場する時の表現
-- Scaling ModeをHierarchyにすると、Scaleで簡単に大きさ調整ができる
+- <i>Scaling Mode</i>を<i>Hierarchy</i>にすると、<i>Scale</i>で簡単に大きさ調整ができる
 
 ---
 
