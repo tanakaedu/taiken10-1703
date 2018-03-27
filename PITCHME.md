@@ -1,8 +1,17 @@
-# 画面を奇麗に見せる演出-スライド
+## キラキラ・ぴかぴかゲームをプログラミング！
+
+デジタルアーツ東京
+体験入学
+
+たなかゆう@AmuseOne1
 
 ---
 
-## パーティクル＝Particles＝粒子
+## パーティクル
+## ＝
+## Particles
+## ＝
+## 粒子
 
 ---
 
@@ -48,6 +57,12 @@
 
 ---
 
+## ユニティちゃんの紹介
+
+http://unity-chan.com/
+
+---
+
 ## Post Processing Stack
 
 ---
@@ -65,9 +80,9 @@
 
 #### 読み込み
 
-- [ ] アセットストアで`post`を検索して、`Post Processing Stack`をインポート
-- [ ] 何か表示されたら"I Made a Backup, Go Ahead!"をクリック
-- [ ] Importボタンをクリック
+- アセットストアで`post`を検索して、`Post Processing Stack`をインポート
+- 何か表示されたら"I Made a Backup, Go Ahead!"をクリック
+- Importボタンをクリック
 
 ---
 
