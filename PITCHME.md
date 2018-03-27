@@ -63,6 +63,13 @@ http://unity-chan.com/
 
 ---
 
+## 背景を調整して雰囲気を整える
+- **Main Camera**の**Background**で色を変更
+- **Main Camera**の**Clear Flags**を変更
+- **Directional Light**の**Rotation**を変更
+
+---
+
 ## Post Processing Stack
 
 ---
