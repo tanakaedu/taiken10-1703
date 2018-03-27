@@ -17,7 +17,7 @@
   - MagicaVoxelでモデリング体験
   - Blenderでモーション設定
   - Voxelorerに読み込む
-- アイディア募集
+- アイディア募集 https://goo.gl/forms/3CaU0H2FztvpU1Y23
 - 業界の概要とまとめ
 
 ---
@@ -39,8 +39,7 @@
 - ポストプロセス(PostProcessing Stack)
   - モダン / ミニチュア / ホラー
 - レベルデザイン(ProGrid / ProBuilder)
-- 作品発表
-- アイディア募集
+- アイディア募集 https://goo.gl/forms/3CaU0H2FztvpU1Y23
 - まとめ
 
 ---
