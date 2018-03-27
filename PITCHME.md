@@ -78,28 +78,28 @@ http://unity-chan.com/
 
 ---
 
-#### 読み込み
+### 読み込み
 
-- アセットストアで`post`を検索して、`Post Processing Stack`をインポート
-- 何か表示されたら"I Made a Backup, Go Ahead!"をクリック
-- Importボタンをクリック
-
----
-
-#### 初期設定
-
-- Hierarchyビューから、Main Cameraを選択
-- Inspectorビューから、Add Componentをクリックして、Effects -> Post-Processing Behaviourを選択
-- ProjectビューのCreateをクリックして、Post-Processing Profileを選択して、[Enter]キーで名前を確定
-- Hierarchyビューから、Main Cameraを選択
-- Projectビューから、New Post-Processing Profileをドラッグして、InspectorビューのProfile欄にドロップ
+- アセットストアで**post**を検索して、**Post Processing Stack**をインポート
+- 何か表示されたら**"I Made a Backup, Go Ahead!"**をクリック
+- <i>Import</i>ボタンをクリック
 
 ---
 
-#### 各種設定
+### 初期設定
 
-- Projectビューから、New Post-Processing Profileを選択
-- Inspectorビューに各種設定が表示されるので、チェックを入れて、パラメーターを変更して観察してみよう
+- <i>Hierarchy</i>ビューから、<i>Main Camera</i>を選択
+- <i>Inspector</i>ビューから、<i>Add Component</i>をクリックして、<i>Effects</i> -> <i>Post-Processing Behaviour</i>を選択
+- <i>Project</i>ビューの<i>Create</i>をクリックして、<i>Post-Processing Profile</i>を選択して、**[Enter]**キーで名前を確定
+- <i>Hierarchy</i>ビューから、<i>Main Camera</i>を選択
+- <i>Project</i>ビューから、<i>New Post-Processing Profile</i>をドラッグして、<i>Inspector</i>ビューの<i>Profile</i>欄にドロップ
+
+---
+
+### 各種設定
+
+- <i>Project</i>ビューから、<i>New Post-Processing Profile</i>を選択
+- <i>Inspector</i>ビューに各種設定が表示されるので、チェックを入れて、パラメーターを変更して観察してみよう
 
 ---
 
