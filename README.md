@@ -31,6 +31,7 @@
 >合、自分で作成したキャラクターを派手に動かすことができます。ゲーム技術の裏側
 >を覗いてみましょう。
 
+- [手順スライド](https://gitpitch.com/tanakaedu/taiken10-1703/slide2)
 - Voxelorerの試遊
 - Asset Storeの利用
 - パーティクル(Particle)
@@ -42,7 +43,9 @@
 - アイディア募集
 - まとめ
 
-## 予告
+---
+
+# 予告
 - プレイヤープログラムの作り方
 - 新しいブロックの開発
 - 敵の開発
@@ -79,6 +82,12 @@
 - [北村 愛実 (2017) Unityの教科書 Unity 2017完全対応版 2D&3Dスマートフォンゲーム入門講座 (Entertainment&IDEA)](http://www.amazon.co.jp/dp/4797393521/ref=cm_sw_r_tw_dp_U_x_tqBUAbCVN9BWM)
 
 # 本プロジェクトに必要なアセット(本リポジトリーには含まれないので、アセットストアやユニティちゃんページからダウンロードしてインポートする必要があります)
-- SDユニティちゃん
 - ProGrid
 - TextMesh Pro
+
+# ライセンス
+## SDユニティちゃん
+<img src="http://unity-chan.com/images/imageLicenseLogo.png" alt="ユニティちゃんライセンス"><p>本リポジトリーはSDユニティちゃん(Ver1.01)を含んでいます。SDユニティちゃんは、<a href="http://unity-chan.com/contents/license_jp/" target="_blank">ユニティちゃんライセンス条項</a>の元に提供されています</p>
+
+## プレイヤーキャラクターの素体とアーマチュア
+[だいしブログ様. MagicaVoxelで作ったプリキュアをUnityで動かす](https://github.dev7.jp/b/2015/12/15/precureadv20151213/)の素体とアーマチュアを利用しています。
