@@ -26,7 +26,7 @@
 - <i>Assets</i>メニューから<i>Import Package</i> -> <i>ParticleSystems</i>を選択して<i>Import</i>
 - <i>Project</i>ビューの<i>Standard Assets</i> -> <i>ParticleSystems</i> -> <i>Prefabs</i>フォルダーを開く
 - 中のプレハブをシーンに配置して確認してみよう
-- 箱の子供にして、<i>Position</i>を`0`,`0`,`0`にする
+- FireMobileをフリダシ箱の子供にして、<i>Position</i>を`0`,`0`,`0`にしてみよう
 
 ---
 
@@ -46,14 +46,13 @@
 
 ---
 
-以下に使うパーティクルを探してみよう
+以下をやってみよう
 
-1. ダメージを受けそうな表現
-1. 箱が壊れる表現
+1. 箱が壊れる時に爆発
 1. スタート地点っぽい表現
 1. ワープできそうな表現
-1. プレイヤーが登場する時の表現
-- <i>Scaling Mode</i>を<i>Hierarchy</i>にすると、<i>Scale</i>で簡単に大きさ調整ができる
+
+<i>Scaling Mode</i>を<i>Hierarchy</i>にすると、<i>Scale</i>で簡単に大きさ調整ができます。
 
 ---
 
