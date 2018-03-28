@@ -26,7 +26,18 @@
 - <i>Assets</i>メニューから<i>Import Package</i> -> <i>ParticleSystems</i>を選択して<i>Import</i>
 - <i>Project</i>ビューの<i>Standard Assets</i> -> <i>ParticleSystems</i> -> <i>Prefabs</i>フォルダーを開く
 - 中のプレハブをシーンに配置して確認してみよう
-- FireMobileをフリダシ箱の子供にして、<i>Position</i>を`0`,`0`,`0`にしてみよう
+
+---
+
+### 以下をやってみよう
+
+- ふりだし箱を燃やす
+  - FireMobileを箱にドラッグ＆ドロップ
+  - <i>Position</i>を`0`,`0`,`0`
+  - <i>Apply</i>する
+- 箱が壊れる時に爆発
+  - ExplosionMobileを、壊れる箱の<i>Break Particle</i>欄にドラッグ＆ドロップ
+  - <i>Apply</i>する
 
 ---
 
