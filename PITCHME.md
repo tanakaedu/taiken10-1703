@@ -29,15 +29,18 @@
 
 ---
 
-### 以下をやってみよう
+### ふりだし箱を燃やす
 
-- ふりだし箱を燃やす
-  - FireMobileを箱にドラッグ＆ドロップ
-  - <i>Position</i>を`0`,`0`,`0`
-  - <i>Apply</i>する
-- 箱が壊れる時に爆発
-  - ExplosionMobileを、壊れる箱の<i>Break Particle</i>欄にドラッグ＆ドロップ
-  - <i>Apply</i>する
+- FireMobileを箱にドラッグ＆ドロップ
+- <i>Position</i>を`0`,`0`,`0`
+- Materialの透過度を下げる
+- <i>Apply</i>する
+
+---
+
+### 箱が壊れる時に爆発
+- ExplosionMobileを、壊れる箱の<i>Break Particle</i>欄にドラッグ＆ドロップ
+- <i>Apply</i>する
 
 ---
 
