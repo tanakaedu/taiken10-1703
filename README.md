@@ -12,12 +12,12 @@
 >る情報もGet!！普段からゲーム制作を行ってみたいと思っている方必見です！
 
 - 様々なツールを使ってみよう（全部無料！）
-- Voxelの世界を探索するVoxelorerを試遊
-- http://am1tanaka.hatenablog.com/entry/2018/03/26/123815
+- Voxelの世界を探索する[Voxelorer](https://github.com/tanakaedu/voxelorer)を試遊
+- [作業手順](http://am1tanaka.hatenablog.com/entry/2018/03/26/123815)
   - MagicaVoxelでモデリング体験
   - Blenderでモーション設定
   - Voxelorerに読み込む
-- アイディア募集 https://goo.gl/forms/3CaU0H2FztvpU1Y23
+- (アイディア募集)[https://goo.gl/forms/3CaU0H2FztvpU1Y23]
 - 業界の概要とまとめ
 
 ---
@@ -32,14 +32,14 @@
 >を覗いてみましょう。
 
 - [手順スライド](https://gitpitch.com/tanakaedu/taiken10-1703/slide2)
-- Voxelorerの試遊
+- [Voxelorer](https://github.com/tanakaedu/voxelorer)の試遊
 - Asset Storeの利用
 - パーティクル(Particle)
 - 背景を整える(背景色/SkyBox/各種ライト)
 - ポストプロセス(PostProcessing Stack)
   - モダン / ミニチュア / ホラー
 - レベルデザイン(ProGrid / ProBuilder)
-- アイディア募集 https://goo.gl/forms/3CaU0H2FztvpU1Y23
+- (アイディア募集)[https://goo.gl/forms/3CaU0H2FztvpU1Y23]
 - まとめ
 
 ---
