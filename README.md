@@ -17,7 +17,7 @@
   - MagicaVoxelでモデリング体験
   - Blenderでモーション設定
   - Voxelorerに読み込む
-- (アイディア募集)[https://goo.gl/forms/3CaU0H2FztvpU1Y23]
+- [アイディア募集](https://goo.gl/forms/3CaU0H2FztvpU1Y23)
 - 業界の概要とまとめ
 
 ---
@@ -39,7 +39,7 @@
 - ポストプロセス(PostProcessing Stack)
   - モダン / ミニチュア / ホラー
 - レベルデザイン(ProGrid / ProBuilder)
-- (アイディア募集)[https://goo.gl/forms/3CaU0H2FztvpU1Y23]
+- [アイディア募集](https://goo.gl/forms/3CaU0H2FztvpU1Y23)
 - まとめ
 
 ---
@@ -70,7 +70,7 @@
   - 様々な分野のプログラミングの学習のための動画があります
 - [paizaラーニング](https://paiza.jp/works)
   - プログラミング言語や、就職向けの動画学習や、問題集があります
-- https://code.org/
+- [https://code.org/](https://code.org/)
   - プログラミングとは何か、ということを学べる、初心者用プログラミング学習サービスです
 - [Qiita](https://qiita.com/)
   - プログラマの技術情報共有サービス。様々な技術についての記事が掲載されています
